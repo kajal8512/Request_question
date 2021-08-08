@@ -1,0 +1,12 @@
+{
+    "id": "2411",
+    "parent_exercise_id": "2404",
+    "name": " Question 7",
+    "slug": "dictionary__OutputOfCode/question7",
+    "sequence_num": 8007,
+    "review_type": "peer",
+    "solution": null,
+    "content": "[{\"type\":\"markdown\",\"value\":\"Niche diye gye code snippet ki output kya hogi? \"},{\"type\":\"python\",\"value\":{\"code\":\"rec = {\\n\\\"Name\\\" : \\\"Python\\\", \\n\\\"Age\\\":\\\"20\\\",\\n\\\"Addr\\\" : \\\"NJ\\\", \\n\\\"Country\\\" :\\\"USA\\\"\\n}\\nid1 = id(rec)\\ndel rec\\n\\nrec = {\\n    \\\"Name\\\" : \\\"Python\\\", \\n    \\\"Age\\\":\\\"20\\\", \\n    \\\"Addr\\\" : \\\"NJ\\\", \\n    \\\"Country\\\" : \\\"USA\\\"\\n    }\\nid2 = id(rec)\\nprint(id1 == id2)\\n\",\"testCases\":[]}}]",
+    "submission_type": "url",
+    "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/OutputOfCode/question7.md"
+}
